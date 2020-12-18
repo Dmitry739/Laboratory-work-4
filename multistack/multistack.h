@@ -4,11 +4,11 @@
 #include <iostream>
 #include <fstream>
 #include <math.h>
-#include"Stack.h"
+#include"stack.h"
 using namespace std;
 
 template <class T>
-class TMultiStack
+class Tmultistack
 {
 protected:
 	int length;
@@ -25,11 +25,11 @@ public:
 	~TMultiStack();
 
 	TMultiStack<T>& operator =(TMultiStack<T>& _v);
-	T Get(int i); //Получение элемента
+	T Get(int i); //ГЏГ®Г«ГіГ·ГҐГ­ГЁГҐ ГЅГ«ГҐГ¬ГҐГ­ГІГ 
 
-	void Push(T d, int i); //Вставка элемента
-	bool IsEmpty(int i) const; // контроль пустоты
-	bool IsFull(int i) const; //контроль переполнения
+	void Push(T d, int i); //Г‚Г±ГІГ ГўГЄГ  ГЅГ«ГҐГ¬ГҐГ­ГІГ 
+	bool IsEmpty(int i) const; // ГЄГ®Г­ГІГ°Г®Г«Гј ГЇГіГ±ГІГ®ГІГ»
+	bool IsFull(int i) const; //ГЄГ®Г­ГІГ°Г®Г«Гј ГЇГҐГ°ГҐГЇГ®Г«Г­ГҐГ­ГЁГї
 	int GetSize();
 	void Resize(int size = 1, int stackCount = 1);
 
