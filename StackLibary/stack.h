@@ -1,5 +1,5 @@
-#ifndef _STACK_
-#define _STACK_
+#ifndef _stack_
+#define _stack_
 #include <iostream>
 #include <fstream>
 using namespace std;
