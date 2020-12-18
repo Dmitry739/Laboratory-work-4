@@ -1,5 +1,5 @@
-#include "MultiStack.h"
-#include "MultiStack.cpp"
+#include "multistack.h"
+#include "multistack.cpp"
 #include <gtest.h>
 
 TEST(TMultiStack, can_create_MultiStack_with_positive_length)
