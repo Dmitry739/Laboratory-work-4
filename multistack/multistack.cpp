@@ -1,6 +1,6 @@
-#include"MultiStack.h"
+#include"multistack.h"
 #include<math.h>
-#include"Stack.h"
+#include"stack.h"
 
 using namespace std;
 
