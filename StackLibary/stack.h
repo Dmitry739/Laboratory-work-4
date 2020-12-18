@@ -19,17 +19,17 @@ public:
 
 	TStack<T>& operator =(TStack<T>& _v);
 
-	void Push(T d); //Вставка элемента
+	void Push(T d); //Г‚Г±ГІГ ГўГЄГ  ГЅГ«ГҐГ¬ГҐГ­ГІГ 
 	void SetData(T* _x, int size, int _top);
 	void Resize(int _size);
-	T Get(); //Получение элемента
-	int IsEmpty(void) const; // контроль пустоты
-	int IsFull(void) const; //контроль переполнения
+	T Get(); //ГЏГ®Г«ГіГ·ГҐГ­ГЁГҐ ГЅГ«ГҐГ¬ГҐГ­ГІГ 
+	int IsEmpty(void) const; // ГЄГ®Г­ГІГ°Г®Г«Гј ГЇГіГ±ГІГ®ГІГ»
+	int IsFull(void) const; //ГЄГ®Г­ГІГ°Г®Г«Гј ГЇГҐГ°ГҐГЇГ®Г«Г­ГҐГ­ГЁГї
 	int GetSize();
 	int GetCount();
-	//Доп задания
-	inline int min_elem(); //Поиск минимального элемента
-	inline int max_elem(); //Поиск максимального элемента
+	//Г„Г®ГЇ Г§Г Г¤Г Г­ГЁГї
+	inline int min_elem(); //ГЏГ®ГЁГ±ГЄ Г¬ГЁГ­ГЁГ¬Г Г«ГјГ­Г®ГЈГ® ГЅГ«ГҐГ¬ГҐГ­ГІГ 
+	inline int max_elem(); //ГЏГ®ГЁГ±ГЄ Г¬Г ГЄГ±ГЁГ¬Г Г«ГјГ­Г®ГЈГ® ГЅГ«ГҐГ¬ГҐГ­ГІГ 
 
 
 	template <class T1>
@@ -116,7 +116,7 @@ TStack<T>::~TStack()
 	}
 }
 
-//ДОП
+//Г„ГЋГЏ
 template<typename T>
 inline int TStack<T>::max_elem()
 {
